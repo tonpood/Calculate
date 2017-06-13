@@ -17,6 +17,9 @@ class ViewController: UIViewController {
     var strNumber2: String = ""
     
     
+    @IBOutlet weak var AnswerLabel: UILabel!
+    
+    
     @IBOutlet weak var num1TextField: UITextField!
     @IBOutlet weak var num2TextField: UITextField!
 
