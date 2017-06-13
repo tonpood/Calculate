@@ -17,15 +17,9 @@ class ViewController: UIViewController {
     var strNumber2: String = ""
     
     
-    
-    
-    
-    
-    
     @IBOutlet weak var num1TextField: UITextField!
-    
     @IBOutlet weak var num2TextField: UITextField!
-    
+
     @IBAction func andwerButton(_ sender: Any) {
         
         strNumber1 = num1TextField.text!
@@ -35,6 +29,12 @@ class ViewController: UIViewController {
         print("strNumber1 ==> \(strNumber1)")
         print("strNumber2 ==> \(strNumber2)")
         
+        //change Datatype
+        intNumber1 = Int(strNumber1)!
+        intNumber2 = Int(strNumber2)!
+        print("intNumber1 ==> \(intNumber1)")
+        print("intNumber2 ==> \(intNumber2)")
+     
         
     }   // answerButton
     
