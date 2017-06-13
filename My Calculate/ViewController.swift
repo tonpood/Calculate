@@ -15,11 +15,11 @@ class ViewController: UIViewController {
     var intNumber2: Int = 0
     var strNumber1 = ""
     var strNumber2: String = ""
+    var Sum: Int = 0
+    
     
     
     @IBOutlet weak var AnswerLabel: UILabel!
-    
-    
     @IBOutlet weak var num1TextField: UITextField!
     @IBOutlet weak var num2TextField: UITextField!
 
