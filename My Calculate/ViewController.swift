@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     var strNumber1 = ""
     var strNumber2: String = ""
     var Sum: Int = 0
-    
+    var strAnswer: String = ""
     
     
     @IBOutlet weak var AnswerLabel: UILabel!
@@ -38,6 +38,13 @@ class ViewController: UIViewController {
         print("intNumber1 ==> \(intNumber1)")
         print("intNumber2 ==> \(intNumber2)")
      
+        
+        //Calculate
+        Sum = intNumber1 + intNumber2
+        print("Sum \(Sum)")
+        strAnswer = String(Sum)
+        AnswerLabel.text = strAnswer
+        
         
     }   // answerButton
     
