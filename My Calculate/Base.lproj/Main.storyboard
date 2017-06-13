@@ -53,6 +53,9 @@
                                 <state key="normal" title="Answer">
                                     <color key="titleColor" red="0.50196081400000003" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="andwerButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kY9-x3-1zM"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="???" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rl0-5Y-S5Y">
                                 <rect key="frame" x="109" y="290" width="183" height="48"/>
@@ -87,6 +90,10 @@
                             <constraint firstAttribute="trailingMargin" secondItem="Rl0-5Y-S5Y" secondAttribute="trailing" constant="102" id="yyb-8g-PKs"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="num1TextField" destination="wR1-ZL-q3O" id="Lgw-af-dal"/>
+                        <outlet property="num2TextField" destination="xN3-9u-Lvv" id="6E4-JN-Tbf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
