@@ -43,6 +43,8 @@ class ViewController: UIViewController {
         Sum = intNumber1 + intNumber2
         print("Sum \(Sum)")
         strAnswer = String(Sum)
+        
+        //Show
         AnswerLabel.text = strAnswer
         
         
